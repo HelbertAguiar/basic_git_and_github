@@ -1,0 +1,20 @@
+git config --global user.name "Fulano de Tal"
+git config --global user.email "you@example.com"
+git config --list
+
+git init ( dentro da pasta para comitar )
+git status
+git add <filepath>
+
+git log
+	https://devhints.io/git-log
+
+git init --bare 'cria servidor repositorio
+
+git remote	'lista servidores
+git remote add "apelido" "diretorio"
+git remote -v
+
+git clone /c/Users/ALURA/Documents/git-e-github/servidor 'para que sejam trazidos os dados do repositório localizado neste endereco
+
+git push local master
