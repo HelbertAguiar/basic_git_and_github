@@ -24,7 +24,23 @@
 
 ## Clone repositores to local machine
 	
-	git clone [path/to/here/git-e-github/servidor] 'to copy data inside the repo github to local station 
+	git clone [path/to/here/git-e-github/servidor] 'to copy data inside the repo github to local station
+
+## …or create a new repository on the command line
+
+	echo "# logging" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M master
+	git remote add origin https://github.com/HelbertAguiar/logging.git
+	git push -u origin master
+
+## …or push an existing repository from the command line
+
+	git remote add origin https://github.com/HelbertAguiar/logging.git
+	git branch -M master
+	git push -u origin master
 
 ## Send repo local to remote
 	
