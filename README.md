@@ -6,7 +6,7 @@
 	git config --list
 
 ## Start Using 
-	git init ( inside the folder to delete it )
+	git init ( inside the folder to commit it )
 	git status
 	git add <filepath>
 	git commit -m "include message"
