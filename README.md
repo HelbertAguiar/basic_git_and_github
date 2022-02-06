@@ -5,8 +5,8 @@
 	git config --global user.email "you@example.com"
 	git config --list
 
-## Using 
-	git init ( dentro da pasta para comitar )
+## Start Using 
+	git init ( inside the folder to delete it )
 	git status
 	git add <filepath>
 	git commit -m "include message"
@@ -14,22 +14,23 @@
 ## Others comamand
 
 	git log
-	git init --bare 'cria servidor repositorio
+	git init --bare 'is create a SERVER repository
+			'details in: https://pt.stackoverflow.com/questions/80182/qual-%C3%A9-a-diferen%C3%A7a-entre-git-init-e-git-init-bare
 
 ## Create remote repositories
-	git remote	'lista servidores
-	git remote add "apelido" "diretorio"
+	git remote	'list the servers
+	git remote add  ["alias"] ["directory"]
 	git remote -v
 
 ## Clone repositores to local machine
 	
-	git clone /c/Users/ALURA/Documents/git-e-github/servidor 'para que sejam trazidos os dados do repositório localizado neste endereco
+	git clone [path/to/here/git-e-github/servidor] 'to copy data inside the repo github to local station 
 
 ## Send repo local to remote
 	
 	git push local master
 
-# Website
+# Links
 
 	https://devhints.io/git-log
 
