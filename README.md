@@ -15,8 +15,10 @@
 
 	git log
 	git init --bare 'is create a SERVER repository
-			'details in: https://pt.stackoverflow.com/questions/80182/qual-%C3%A9-a-diferen%C3%A7a-entre-git-init-e-git-init-bare
-
+			'details in: https://pt.stackoverflow.com/questions/80182/qual-%C3%A9-a-diferen%C3%A7a-entre-git-init-e-git-init-bare		
+	git commit --amend -m "New commit message."
+	git merge branch_original (merge to branch current)
+	
 ## Create remote repositories
 	git remote	'list the servers
 	git remote add  ["alias"] ["directory"]
