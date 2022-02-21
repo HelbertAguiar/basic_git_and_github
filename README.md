@@ -1,5 +1,7 @@
 # Introdução
 
+[Conventions Pattern](https://github.com/HelbertAguiar/basic_git_and_github/blob/master/pattern.md)
+
 O Git é um sistema de controle de versão de arquivo distribuído, rápido, escalável e com um conjunto de comandos extraordinariamente rico que fornece operações de alto nível.
 
 ## Status dos estados dos arquivos
