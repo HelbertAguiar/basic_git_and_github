@@ -39,6 +39,8 @@ O Git é um sistema de controle de versão de arquivo distribuído, rápido, esc
 	git status
 	git add <filepath>
 	or git add -i <filepath> (interativo)
+	or git add -p <filepath> (patchs) 
+		em seguida é útil usar: git diff --staged <filepath>
 	git commit -m "subject message" -m "description message"
 
 ## Visualizar log dos commits
